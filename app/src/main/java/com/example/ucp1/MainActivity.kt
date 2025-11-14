@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.ucp1.ui.theme.UCP1Theme
 import com.example.ucp1.view.FormLogin
+import com.example.ucp1.view.FormulirPage
 import com.example.ucp1.view.ProfilPage
 
 class MainActivity : ComponentActivity() {
@@ -23,9 +24,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             UCP1Theme {
                 Surface(modifier = Modifier.fillMaxSize()) {
-                    ProfilPage(
-                        OnKembaliBtnClick = {},
-                        OnTambahBtnClick = {}
+                    FormulirPage(
+                        OnAddBtnClick = {},
+                        OnIyaBtnClick = {},
+                        OnBackBtnClick = {}
                     )
                 }
             }
