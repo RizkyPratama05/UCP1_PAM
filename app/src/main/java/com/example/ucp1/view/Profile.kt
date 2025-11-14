@@ -179,7 +179,7 @@ fun ProfilPage(
                     onClick = OnKembaliBtnClick
                 ) {
                     Text(
-                        text = "KEMBALI",
+                        text = "LOGOUT",
                         color = Color.Blue,
                         fontSize = 20.sp
                     )

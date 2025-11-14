@@ -56,7 +56,6 @@ import java.util.Locale
 @Composable
 fun FormulirPage(
     OnBackBtnClick : () -> Unit,
-    OnAddBtnClick : () -> Unit,
     OnIyaBtnClick : () -> Unit
 ){
     var namaDosen by remember { mutableStateOf("") }
